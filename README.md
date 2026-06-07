@@ -1,46 +1,77 @@
-# Avesta 🌟
+# Avesta Framework
 
-"Preserving ancient wisdom for modern times"
-
-## About The Project
-
-The Avesta project is now complete! While it's inspired by Laravel's elegance, it maintains a lightweight and focused approach that doesn't require extensive documentation.
-
-### Why "Avesta"?
-
-I chose this name to honor the memory of the ancient book that guided my ancestors through life's lessons generations ago. Just as the original Avesta provided wisdom, this framework aims to provide solid foundations for modern web development.
-
-## Current Status ✅
-
-- **Project**: Complete and functional
-- **Architecture**: Professional Laravel-inspired structure
-- **Testing**: Comprehensive checks completed
-- **Stability**: No major errors detected
-
-## Areas for Improvement 🔧
-
-The framework is solid, but there's always room for growth:
-
-- **Migrations**: Need some additional refinement
-- **Features**: Could be expanded based on community needs
-
-## Support & Contact 📬
-
-If you encounter any issues or have suggestions:
-
-- **Telegram**: [ @Octawian ]
-- **Email**: [ arashebi777@gmail.com ]
-
-I apologize in advance for any problems you might find and appreciate your feedback!
-
-## Vision 🌍
-
-My dream is to one day introduce this project on a global stage, creating something that makes all Persian speakers proud worldwide. This isn't just code—it's a piece of our heritage reimagined for the digital age.
-
-## Final Thought 🙏
-
-"Don't make it hard for yourself and just think about the path."
+> A lightweight, Laravel-inspired MVC framework built from scratch — currently undergoing a full rebuild.
 
 ---
 
-*Built with passion for the developer community*
+## 🔄 Status: Full Rebuild in Progress
+
+The original Avesta is functional, but after significant growth in experience and knowledge, I've decided to rebuild it from the ground up.
+
+The goal is not just a framework — it's a deeper understanding of how modern PHP frameworks actually work under the hood: routing, dependency injection, ORM, middleware, and more.
+
+---
+
+## What is Avesta?
+
+Avesta is a lightweight PHP MVC framework inspired by Laravel's elegance, but intentionally minimal. It's built for developers who want to understand the internals of a framework rather than just use one.
+
+**Core philosophy:**
+- No magic. Everything is explicit and traceable.
+- Lightweight by design — no unnecessary dependencies.
+- Educational first, production-ready second.
+
+---
+
+## What's Being Rebuilt
+
+| Component | Old Version | Rebuild Plan |
+|---|---|---|
+| Router | Basic | Regex-based, named routes, middleware support |
+| ORM | Simple query builder | Active Record pattern with relationships |
+| Migrations | Incomplete | Full up/down migrations with schema builder |
+| Container | None | PSR-11 compatible DI container |
+| Templating | Basic | Blade-inspired with template inheritance |
+| CLI | None | Artisan-inspired command runner |
+
+---
+
+## Why Rebuild Instead of Patch?
+
+Writing a framework once teaches you how frameworks work.  
+Rebuilding it teaches you **why** they work that way.
+
+The first version answered *"can I build this?"*  
+The rebuild answers *"how should this actually be built?"*
+
+---
+
+## Roadmap
+
+- [ ] Core HTTP layer (Request, Response, Router)
+- [ ] Service Container (DI)
+- [ ] Middleware pipeline
+- [ ] Database abstraction & ORM
+- [ ] Migration system
+- [ ] Templating engine
+- [ ] CLI tool
+- [ ] Documentation
+
+---
+
+## Name
+
+**Avesta** is the name of one of the oldest surviving texts of human civilization — a Zoroastrian scripture that guided generations. The name was chosen as a reminder that good foundations outlast everything built on top of them.
+
+---
+
+## Contact
+
+- Telegram: [@Octawian](https://t.me/Octawian)
+- Email: arashebi777@gmail.com
+
+---
+
+![building](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXMwNjlseWJtaWZzeGs0cmJnNWw3eXpzdDExdzV4MXljcXAxbjVnaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MVuTi2LcjWTew/giphy.gif)
+
+*Good code is not written — it's rewritten.*
