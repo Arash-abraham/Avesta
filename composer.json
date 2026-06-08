@@ -1,0 +1,21 @@
+{
+    "name": "avesta/framework",
+    "description": "A lightweight PHP MVC framework built from scratch",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arash Abraham",
+            "email": "arashebi777@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avesta\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
