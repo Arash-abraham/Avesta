@@ -1,0 +1,83 @@
+# Composer
+/vendor/
+composer.phar
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+/logs/
+/*.log
+error_log
+
+# Cache and temp
+/cache/
+/tmp/
+temp/
+*.tmp
+
+# Session files
+/sessions/
+/session/
+sess_*
+
+/uploads/
+/uploads/*/
+!uploads/.gitkeep
+
+# Config files with sensitive data
+/config/config.php
+/config/database.php
+/config/app.php
+!config/config.example.php
+!config/database.example.php
+
+# PHP error reporting
+php_errors.log
+php_error_log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Testing
+/coverage/
+/phpunit.xml
+*.log
+/build/
+
+# Package managers
+/node_modules/
+package-lock.json
+yarn.lock
+
+# Docker
+/docker/volumes/
+.docker/
+
+# Deployment
+/.env.production
+/.env.staging
+/deploy/
